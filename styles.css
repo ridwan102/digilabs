@@ -19,6 +19,8 @@ body {
     color: var(--text-light);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 
 /* Navigation */
@@ -194,10 +196,6 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     height: fit-content;
-}
-
-.intro-text {
-    space-y: 2rem;
 }
 
 .intro-text p {
@@ -550,6 +548,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+    
     .nav-container,
     .hero,
     .intro,
@@ -558,11 +560,31 @@ body {
         padding-right: 1rem;
     }
     
+    .hero-content,
+    .intro-container,
+    .portfolio-container {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .hero-title {
+        font-size: clamp(2rem, 10vw, 3rem);
+    }
+    
     .hero-subtitle {
         font-size: 1rem;
     }
     
     .intro-text p {
         font-size: 1rem;
+    }
+    
+    .intro-achievements {
+        padding: 1rem;
+    }
+    
+    .achievements-container {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
