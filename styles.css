@@ -509,6 +509,10 @@ body {
         justify-self: center;
     }
     
+    .hero-cta {
+        justify-content: center;
+    }
+    
     .intro-content {
         grid-template-columns: 1fr;
         gap: 2rem;
