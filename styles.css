@@ -505,7 +505,14 @@ body {
 
 @media (max-width: 768px) {
     .nav-menu {
-        display: none;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
     }
     
     .hero-title {
