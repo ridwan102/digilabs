@@ -49,6 +49,20 @@ body {
     color: var(--accent-green);
 }
 
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.nav-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-light);
+    transition: 0.3s;
+}
+
 .nav-menu {
     display: flex;
     gap: 2rem;
@@ -504,17 +518,30 @@ body {
 }
 
 @media (max-width: 768px) {
-    .nav-menu {
+    .nav-toggle {
         display: flex;
-        gap: 0.5rem;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        width: 100%;
+    }
+    
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(10, 15, 10, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 1rem 2rem;
+        gap: 1rem;
+    }
+    
+    .nav-menu.active {
+        display: flex;
     }
     
     .nav-link {
-        font-size: 0.8rem;
-        white-space: nowrap;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(0, 255, 65, 0.1);
     }
     
     .hero-title {
