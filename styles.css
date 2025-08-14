@@ -207,10 +207,35 @@ body {
     line-height: 1.8;
 }
 
+.achievements-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    grid-column: 1 / -1;
+    justify-content: center;
+}
+
+.intro-achievements {
+    flex: 1;
+    padding: 1.5rem;
+    background: rgba(0, 255, 65, 0.05);
+    border-left: 4px solid var(--accent-green);
+    border-radius: 0 8px 8px 0;
+}
+
+.intro-achievements p {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 0;
+}
+
 .intro-stats {
     display: flex;
     gap: 4rem;
     margin-top: 4rem;
+    justify-content: center;
 }
 
 .stat {
@@ -253,9 +278,27 @@ body {
     color: var(--text-light);
 }
 
+.portfolio-sections {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.portfolio-section {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--accent-green);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
