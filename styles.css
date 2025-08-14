@@ -348,11 +348,117 @@ body {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+}
+
+.project-description p {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 255, 65, 0.1);
+    border: 2px solid var(--accent-green);
+    border-radius: 50%;
+    color: var(--accent-green);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background: var(--accent-green);
+    color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 255, 65, 0.3);
+}
+
+.project-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 6rem 2rem;
+    background: var(--secondary-dark);
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+
+.contact-text {
+    font-size: 1.25rem;
+    color: var(--text-gray);
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.contact-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgba(0, 255, 65, 0.05);
+    border: 2px solid var(--accent-green);
+    border-radius: 8px;
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.contact-link:hover {
+    background: var(--accent-green);
+    color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 255, 65, 0.2);
+}
+
+.contact-icon {
+    font-size: 1.5rem;
 }
 
 /* Footer */
 .footer {
-    background: var(--secondary-dark);
+    background: var(--primary-dark);
     padding: 2rem;
     text-align: center;
     border-top: 1px solid var(--accent-green);
