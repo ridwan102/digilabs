@@ -23,7 +23,7 @@ const AboutSection = () => {
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
             DigiLabs delivers strategic AI and Blockchain consulting to organizations navigating digital transformation. Led by Ridwan Alam, we bring proven technical expertise combined with business acumen to solve complex challenges.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
             Our consultative approach focuses on understanding your unique business needs first, then architecting tailored solutions that deliver measurable results. From proof-of-concept to production deployment, we guide you through every phase of implementation.
           </p>
         </motion.div>
