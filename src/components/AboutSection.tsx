@@ -29,7 +29,7 @@ const AboutSection = () => {
         </motion.div>
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
@@ -48,7 +48,7 @@ const AboutSection = () => {
               <p className="text-muted-foreground text-sm">{stat.label}</p>
             </div>
           )}
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>);
 
