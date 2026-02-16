@@ -1,6 +1,12 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Play } from "lucide-react";
+import objectdetectionpic from "@/assets/objectdetection.png";
+import bitloanpic from "@/assets/bitloan.png";
+import solespic from "@/assets/soles.png";
+import cashucloakpic from "@/assets/cashucloak.png";
+import govtpic from "@/assets/govt.png";
+import lawtechpic from "@/assets/lawtech1.png";
 
 const aiCases = [
 {
@@ -9,7 +15,7 @@ const aiCases = [
   challenge: "Client needed to streamline legal document review and identify contractual similarities at scale.",
   solution: "Architected an AI-powered document comparison platform using semantic similarity analysis, delivering automated clustering, quantifiable similarity scoring, and automated black-lining of discrepancies.",
   impact: "Reduced document review time and enabled handling of more documents.",
-  image: "https://www.digilabsai21.com/images/lawtech1.png"
+  image: lawtechpic
 },
 {
   tag: "Government Technology Sector",
@@ -17,7 +23,7 @@ const aiCases = [
   challenge: "Agency required real-time insights from Congressional representatives' social media to inform strategic decision-making.",
   solution: "Developed AI platform for collecting and analyzing posts from X and BlueSky, implementing sentiment analysis and topic modeling.",
   impact: "Enabled trend identification and sentiment tracking.",
-  image: "https://www.digilabsai21.com/images/govt.png"
+  image: govtpic
 },
 {
   tag: "Transportation Technology",
@@ -27,7 +33,7 @@ const aiCases = [
   impact: "Achieved higher detection accuracy, enabling safer autonomous navigation.",
   github: "https://github.com/ridwan102/Autonomous_Vehicle_Object_Detector",
   demo: "https://www.youtube.com/watch?v=WGyilTbILEo",
-  image: "https://www.digilabsai21.com/images/objectdetection.png"
+  image: objectdetectionpic
 }];
 
 
@@ -40,7 +46,7 @@ const blockchainCases = [
   impact: "Award-winning solution recognized at Las Vegas Bitcoin Hackathon.",
   github: "https://github.com/cashucloak/cashu_cloak",
   demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
-  image: "https://www.digilabsai21.com/images/cashucloak.png"
+  image: cashucloakpic
 },
 {
   tag: "E-Commerce & Retail - MIT Hackathon Winner",
@@ -50,7 +56,7 @@ const blockchainCases = [
   impact: "Reduced counterfeit products in marketplace and enabled instant cryptocurrency payments.",
   github: "https://github.com/YongERong/soles",
   demo: "https://www.youtube.com/watch?v=b6b3Zs_Ski0",
-  image: "https://www.digilabsai21.com/images/soles.png"
+  image: solespic
 },
 {
   tag: "FinTech Innovation",
@@ -60,7 +66,7 @@ const blockchainCases = [
   impact: "Enabled sub-second loan disbursement, expanding financial access to underserved markets.",
   github: "https://github.com/ridwan102/bitloan",
   demo: "https://www.youtube.com/watch?v=qzWmGha4p5U&t=3s",
-  image: "https://www.digilabsai21.com/images/bitloan.png"
+  image: bitloanpic
 }];
 
 
