@@ -13,10 +13,10 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="max-w-3xl mx-auto text-center"
-        >
+          className="max-w-3xl mx-auto text-center">
+
           <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">About DigiLabs</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-sans">
             Expert Guidance for Your{" "}
             <span className="text-gradient">Digital Transformation</span>
           </h2>
@@ -33,25 +33,25 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto"
-        >
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
+
           {[
-            { number: "10+", label: "Projects Delivered" },
-            { number: "5+", label: "Years Experience" },
-            { number: "100%", label: "Client Satisfaction" },
-          ].map((stat) => (
-            <div
-              key={stat.label}
-              className="bg-card border border-border rounded-xl p-8 text-center glow-emerald"
-            >
-              <p className="text-4xl font-display font-bold text-gradient mb-2">{stat.number}</p>
+          { number: "10+", label: "Projects Delivered" },
+          { number: "5+", label: "Years Experience" },
+          { number: "100%", label: "Client Satisfaction" }].
+          map((stat) =>
+          <div
+            key={stat.label}
+            className="bg-card border border-border rounded-xl p-8 text-center glow-emerald">
+
+              <p className="text-4xl font-bold text-gradient mb-2 font-sans">{stat.number}</p>
               <p className="text-muted-foreground text-sm">{stat.label}</p>
             </div>
-          ))}
+          )}
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
