@@ -3,11 +3,12 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-{ label: "Home", href: "#home" },
+// { label: "Home", href: "#home" },
 { label: "About", href: "#about" },
 { label: "Services", href: "#services" },
 { label: "Case Studies", href: "#cases" },
-{ label: "Contact", href: "#contact" }];
+// { label: "Contact", href: "#contact" }
+];
 
 
 const Navbar = () => {

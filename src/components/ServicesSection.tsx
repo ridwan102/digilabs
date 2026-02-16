@@ -15,18 +15,19 @@ const services = [
   desc: "End-to-end Blockchain solutions from architecture design to deployment, specializing in Bitcoin Lightning Network and decentralized applications.",
   items: ["Smart contract development", "Lightning Network integration", "Decentralized application (dApp) development", "Cryptocurrency payment systems"]
 },
-{
-  icon: Search,
-  title: "Technical Due Diligence",
-  desc: "Expert evaluation of AI and Blockchain systems, architecture reviews, and strategic technology assessments.",
-  items: ["Technology stack evaluation", "Code & architecture review", "Feasibility analysis", "Risk assessment & mitigation"]
-},
-{
-  icon: GraduationCap,
-  title: "Advisory & Training",
-  desc: "Strategic guidance and hands-on training to upskill your team and establish internal AI and Blockchain capabilities.",
-  items: ["Technology roadmap planning", "Team training & workshops", "Best practices implementation", "Ongoing technical support"]
-}];
+// {
+//   icon: Search,
+//   title: "Technical Due Diligence",
+//   desc: "Expert evaluation of AI and Blockchain systems, architecture reviews, and strategic technology assessments.",
+//   items: ["Technology stack evaluation", "Code & architecture review", "Feasibility analysis", "Risk assessment & mitigation"]
+// },
+// {
+//   icon: GraduationCap,
+//   title: "Advisory & Training",
+//   desc: "Strategic guidance and hands-on training to upskill your team and establish internal AI and Blockchain capabilities.",
+//   items: ["Technology roadmap planning", "Team training & workshops", "Best practices implementation", "Ongoing technical support"]
+// }
+];
 
 
 const ServicesSection = () => {
@@ -52,7 +53,7 @@ const ServicesSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
           {services.map((service, i) =>
           <motion.div
             key={service.title}

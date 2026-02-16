@@ -88,6 +88,10 @@
     @apply border-border;
   }
 
+  html {
+    font-size: 24px;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
     font-family: 'Inter', sans-serif;

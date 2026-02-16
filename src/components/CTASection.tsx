@@ -35,13 +35,13 @@ const CTASection = () => {
               Schedule Consultation
               <ArrowRight size={18} />
             </a>
-            <a
+            {/* <a
               href="mailto:contact@digilabsai21.com"
               className="inline-flex items-center justify-center gap-2 border border-border text-foreground px-8 py-3.5 rounded-lg font-medium hover:bg-secondary transition-colors">
 
               <Mail size={18} />
               Email Us
-            </a>
+            </a> */}
           </div>
         </motion.div>
       </div>

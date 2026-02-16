@@ -4,8 +4,8 @@ const Footer = () => (
       <p className="text-sm text-muted-foreground">
         © {new Date().getFullYear()} DigiLabs. All rights reserved.
       </p>
-      <div className="flex gap-6">
-        {["Home", "About", "Services", "Case Studies", "Contact"].map((l) => (
+      <div className="flex gap-4">
+        {[, "About", "Services", "Case Studies"].map((l) => (
           <a
             key={l}
             href={`#${l.toLowerCase().replace(" ", "")}`}
