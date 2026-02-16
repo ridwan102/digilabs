@@ -21,7 +21,7 @@ const HeroSection = () => {
             <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">
               Strategic Technology Consulting
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-serif">
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-sans">
               AI & Blockchain{" "}
               <span className="text-gradient">Consulting</span>
             </h1>
