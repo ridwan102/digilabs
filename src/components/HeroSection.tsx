@@ -16,12 +16,12 @@ const HeroSection = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-          >
+            transition={{ duration: 0.7 }}>
+
             <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">
               Strategic Technology Consulting
             </p>
-            <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-serif">
               AI & Blockchain{" "}
               <span className="text-gradient">Consulting</span>
             </h1>
@@ -34,19 +34,19 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 mb-16"
-          >
+            className="flex flex-col sm:flex-row gap-4 mb-16">
+
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-base"
-            >
+              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-base">
+
               Schedule Consultation
               <ArrowRight size={18} />
             </a>
             <a
               href="#cases"
-              className="inline-flex items-center justify-center gap-2 border border-border text-foreground px-8 py-3.5 rounded-lg font-medium hover:bg-secondary transition-colors text-base"
-            >
+              className="inline-flex items-center justify-center gap-2 border border-border text-foreground px-8 py-3.5 rounded-lg font-medium hover:bg-secondary transition-colors text-base">
+
               View Case Studies
             </a>
           </motion.div>
@@ -55,23 +55,23 @@ const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.6 }}
-            className="flex flex-wrap gap-8"
-          >
+            className="flex flex-wrap gap-8">
+
             {[
-              { icon: Award, label: "Award-Winning Innovation" },
-              { icon: Building2, label: "Enterprise & Gov Experience" },
-              { icon: Rocket, label: "End-to-End Delivery" },
-            ].map((item) => (
-              <div key={item.label} className="flex items-center gap-3 text-muted-foreground">
+            { icon: Award, label: "Award-Winning Innovation" },
+            { icon: Building2, label: "Enterprise & Gov Experience" },
+            { icon: Rocket, label: "End-to-End Delivery" }].
+            map((item) =>
+            <div key={item.label} className="flex items-center gap-3 text-muted-foreground">
                 <item.icon size={20} className="text-primary" />
                 <span className="text-sm">{item.label}</span>
               </div>
-            ))}
+            )}
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
