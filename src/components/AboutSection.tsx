@@ -15,16 +15,16 @@ const AboutSection = () => {
           transition={{ duration: 0.7 }}
           className="max-w-3xl mx-auto text-center">
 
-          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">About DigiLabs</p>
+          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Our Mission</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-sans">
-            Expert Guidance for Your{" "}
-            <span className="text-gradient">Digital Transformation</span>
+            Engineering the {" "}
+            <span className="text-gradient">Intelligent Enterprise</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            DigiLabs delivers strategic AI and Blockchain consulting to organizations navigating digital transformation. Led by Ridwan Alam, we bring proven technical expertise combined with business acumen to solve complex challenges.
+            We partner with forward-thinking municipalities and enterprises to capture the full value of the digital economy. DigiLabs combines deep industry insight with rigorous data science and award-winning blockchain expertise to solve our clients' most complex challenges.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            Our consultative approach focuses on understanding your unique business needs first, then architecting tailored solutions that deliver measurable results. From proof-of-concept to production deployment, we guide you through every phase of implementation.
+            We do not just navigate digital transformation; we architect the infrastructure for sustainable growth. From strategic roadmap to production-grade deployment, we help organizations build the capabilities they need to thrive in a secure, decentralized future.
           </p>
         </motion.div>
 

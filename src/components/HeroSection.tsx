@@ -26,7 +26,7 @@ const HeroSection = () => {
               <span className="text-gradient">Strategy</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-              Architecting secure, decentralized infrastructure for municipalities and forward-thinking enterprises.
+              Architecting secure infrastructure for municipalities and forward-thinking enterprises.
             </p>
           </motion.div>
 
