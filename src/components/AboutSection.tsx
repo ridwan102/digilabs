@@ -21,7 +21,7 @@ const AboutSection = () => {
             <span className="text-gradient">Intelligent Enterprise</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            We partner with forward-thinking municipalities and enterprises to capture the full value of the digital economy. DigiLabs combines deep industry insight with rigorous data science and award-winning blockchain expertise to solve our clients' most complex challenges.
+            We partner with forward-thinking municipalities and enterprises to capture the full value of the digital economy. DigiLabs combines deep industry insight with rigorous data science and award-winning blockchain expertise to solve our clients' complex challenges.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
             We do not just navigate digital transformation; we architect the infrastructure for sustainable growth. From strategic roadmap to production-grade deployment, we help organizations build the capabilities they need to thrive in a secure, decentralized future.

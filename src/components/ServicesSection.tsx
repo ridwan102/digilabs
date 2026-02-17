@@ -5,15 +5,15 @@ import { Brain, Link2, Search, GraduationCap } from "lucide-react";
 const services = [
 {
   icon: Brain,
-  title: "AI Strategy & Implementation",
-  desc: "Custom AI solutions including NLP, LLM integration, sentiment analysis, and neural network development tailored to your business needs.",
-  items: ["Document processing & semantic analysis", "Custom LLM & chatbot development", "Predictive modeling & analytics", "Computer vision & object detection"]
+  title: "Enterprise AI & Data Science",
+  desc: "We architect custom AI solutions—including NLP, LLM integration, and neural networks—tailored to your business needs. We build production-ready, private models that turn your proprietary data into a strategic asset.",
+  items: ["Private LLM Agents & Semantic Search", "Predictive Modeling & Risk Analytics", "Automated Document Intelligence", "Computer Vision for Operations"]
 },
 {
   icon: Link2,
-  title: "Blockchain Development",
-  desc: "End-to-end Blockchain solutions from architecture design to deployment, specializing in Bitcoin Lightning Network and decentralized applications.",
-  items: ["Smart contract development", "Lightning Network integration", "Decentralized application (dApp) development", "Cryptocurrency payment systems"]
+  title: "Blockchain Infrastructure",
+  desc: "End-to-end solutions from architecture design to deployment. We specialize in building secure payment rails and robust applications on the Bitcoin and Lightning networks.",
+  items: ["Lightning Network Payment Rails", "Secure Smart Contract Architecture", "Decentralized application (dApp) development", "Municipal & Corporate Treasury Strategy"]
 },
 // {
 //   icon: Search,
@@ -43,13 +43,13 @@ const ServicesSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16">
 
-          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Consulting Services</p>
+          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Core Capabilities</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 font-sans">
-            Solutions Tailored to Your{" "}
-            <span className="text-gradient">Strategic Objectives</span>
+            Secure Infrastructure & {" "}
+            <span className="text-gradient">Intelligent Systems</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            We partner with forward-thinking organizations to implement cutting-edge AI and Blockchain solutions.
+            We architect the technical foundation to bridge the gap between corporate data science and decentralized finance.
           </p>
         </motion.div>
 
