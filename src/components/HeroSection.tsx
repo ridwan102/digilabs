@@ -59,8 +59,8 @@ const HeroSection = () => {
 
             {[
             { icon: Building2, label: "Enterprise & Gov Experience" },
-            { icon: Award, label: "Hackathon Winner & Las Vegas Honoree" },
-            { icon: Bitcoin, label: "Host of Bitcoinomics21" },
+            { icon: Award, label: "Awarded for Technical Innovation" },
+            { icon: Bitcoin, label: "Host of Bitcoinomics21 Podcast" },
             ].
             map((item) =>
             <div key={item.label} className="flex items-center gap-3 text-muted-foreground">

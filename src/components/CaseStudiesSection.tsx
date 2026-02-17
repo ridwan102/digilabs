@@ -63,21 +63,21 @@ const municipalCases = [
 
 const blockchainCases = [
 {
-  tag: "FinTech - Las Vegas Bitcoin Honorable Mention",
-  title: "Privacy-Enhanced Bitcoin Transfer System",
-  objective: "Secure Bitcoin transfers with enhanced privacy features.",
-  architecture: "Developed mobile application integrating Lightning Network with steganography technology, enabling concealed Bitcoin token transfers within image files.",
-  impact: "Award-winning solution recognized at Las Vegas Bitcoin Hackathon.",
+  tag: "FinTech & Privacy Engineering - Honorable Mention",
+  title: "Secure Bitcoin Infrastructure",
+  objective: "Architect a high-privacy Bitcoin transfer system using advanced cryptographic and steganographic protocols.",
+  architecture: "Engineered a mobile application integrating the Lightning Network with steganography to enable concealed Bitcoin token transfers within digital image assets.",
+  impact: "Awarded Honorable Mention at the Las Vegas Bitcoin Hackathon for pioneering privacy-enhanced Bitcoin scaling solutions.",
   github: "https://github.com/cashucloak/cashu_cloak",
   demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
   image: cashucloakpic
 },
 {
-  tag: "E-Commerce & Retail - MIT Hackathon Winner",
-  title: "Blockchain Authentication Platform",
-  objective: "Needed tamper-proof system for verifying product authenticity in the secondary market.",
-  architecture: "Built blockchain-based mobile verification platform with Lightning Network payment integration, creating immutable authenticity records.",
-  impact: "Reduced counterfeit products in marketplace and enabled instant cryptocurrency payments.",
+  tag: "Supply Chain & Digital Provenance - Winner",
+  title: "Blockchain Authentication Infrastructure",
+  objective: "Architect a tamper-proof verification system to ensure product authenticity and secure asset transfer.",
+  architecture: "Engineered a blockchain-integrated mobile platform utilizing the Lightning Network to create immutable provenance records and facilitate instant payments.",
+  impact: "Awarded First Place at the MIT Blockchain Hackathon for developing a scalable solution to eliminate counterfeit friction and streamline peer-to-peer commerce.",
   github: "https://github.com/YongERong/soles",
   demo: "https://www.youtube.com/watch?v=b6b3Zs_Ski0",
   image: solespic
