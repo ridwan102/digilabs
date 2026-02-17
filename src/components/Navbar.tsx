@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#contact"
             className="text-sm font-medium bg-primary text-primary-foreground px-5 py-2 rounded-lg hover:opacity-90 transition-opacity">
 
-            Schedule Consultation
+            Schedule a Call
           </a>
         </div>
 

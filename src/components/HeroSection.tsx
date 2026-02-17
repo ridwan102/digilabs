@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Award, Building2, Rocket } from "lucide-react";
+import { ArrowRight, Award, Bitcoin, Building2, Rocket } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -22,11 +22,11 @@ const HeroSection = () => {
               Strategic Technology Consulting
             </p>
             <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-sans">
-              AI & Blockchain{" "}
-              <span className="text-gradient">Consulting</span>
+              Data-Driven AI & Blockchain {" "}
+              <span className="text-gradient">Strategy</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-              We partner with forward-thinking organizations to architect tailored AI and Blockchain solutions that deliver measurable results.
+              Architecting secure, decentralized infrastructure for municipalities and forward-thinking enterprises.
             </p>
           </motion.div>
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
               href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-base">
 
-              Schedule Consultation
+              Schedule a Free Discovery Call
               <ArrowRight size={18} />
             </a>
             <a
@@ -58,9 +58,10 @@ const HeroSection = () => {
             className="flex flex-wrap gap-8">
 
             {[
-            { icon: Award, label: "Award-Winning Innovation" },
             { icon: Building2, label: "Enterprise & Gov Experience" },
-            { icon: Rocket, label: "End-to-End Delivery" }].
+            { icon: Award, label: "Hackathon Winner & Las Vegas Honoree" },
+            { icon: Bitcoin, label: "Host of Bitcoinomics21" },
+            ].
             map((item) =>
             <div key={item.label} className="flex items-center gap-3 text-muted-foreground">
                 <item.icon size={20} className="text-primary" />
