@@ -1,20 +1,27 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Brain, Link2, Search, GraduationCap } from "lucide-react";
+import { Brain, Link2, Search, Landmark } from "lucide-react";
 
 const services = [
 {
   icon: Brain,
   title: "Enterprise AI & Data Science",
-  desc: "We architect custom AI solutions—including NLP and LLM integration—tailored to your business needs. We build production-ready, private models that turn your proprietary data into a strategic asset.",
-  items: ["Private LLM Agents & Semantic Search", "Predictive Modeling & Risk Analytics", "Automated Document Intelligence", "Computer Vision for Operations"]
+  desc: "We architect custom AI solutions tailored to your business needs. We build production-ready models that turn your proprietary data into a strategic asset.",
+  items: ["Private LLM Agents & Semantic Search", "Predictive Modeling & Risk Analytics", "Automated Document Intelligence"]
 },
 {
   icon: Link2,
   title: "Blockchain Infrastructure",
-  desc: "End-to-end solutions from architecture design to deployment. We specialize in building secure payment rails and robust applications on the Bitcoin and Lightning networks.",
-  items: ["Lightning Network Payment Rails", "Secure Smart Contract Architecture", "Decentralized application (dApp) development", "Municipal & Corporate Treasury Strategy"]
+  desc: "End-to-end solutions from architecture design to deployment. We specialize in building secure payment rails and apps on the Bitcoin and Lightning networks.",
+  items: ["Lightning Network Payment Rails", "Secure Smart Contract Architecture", "Decentralized applications (dApp)"]
 },
+{
+  icon: Landmark,
+  title: "Municipal & Policy Strategy",
+  desc: "We architect the technical and legislative frameworks required to integrate decentralized technology into public and private institutions.",
+  items: ["Digital Asset Governance", "Political Technical Strategy", "Treasury Strategy"]
+},
+
 // {
 //   icon: Search,
 //   title: "Technical Due Diligence",
@@ -53,7 +60,7 @@ const ServicesSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           {services.map((service, i) =>
           <motion.div
             key={service.title}

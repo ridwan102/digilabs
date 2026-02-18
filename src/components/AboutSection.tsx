@@ -17,14 +17,27 @@ const AboutSection = () => {
 
           <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Our Mission</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-sans">
-            Engineering the {" "}
-            <span className="text-gradient">Intelligent Enterprise</span>
+            <span className="text-gradient">The Strategic Edge: </span>
+            {" "} Enterprise AI & Blockchain Infrastructure
           </h2>
+
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            We partner with forward-thinking municipalities and enterprises to capture the full value of the digital economy. DigiLabs combines deep industry insight with rigorous data science and award-winning blockchain expertise to solve our clients' complex challenges.
+            I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs</b>, I combine industry insight with the data science and award-winning blockchain expertise to solve infrastructure challenges.
           </p>
+
+          <h3 className="text-xl md:text-2xl font-bold mb-4 font-sans">Proven Enterprise Impact</h3>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            We do not just navigate digital transformation; we architect the infrastructure for sustainable growth. From strategic roadmap to production-grade deployment, we help organizations build the capabilities they need to thrive in a secure, decentralized future.
+            During my tenure as a Senior Data Scientist at <b>The General Car Insurance</b>, I engineered predictive models that generated <b>$23 million in profit</b>. By integrating statistical modeling with cross-functional leadership, I bridge the gap between raw data and executive decision-making.
+          </p>
+          
+          <h3 className="text-xl md:text-2xl font-bold mb-4 font-sans">Institutional & Decentralized Innovation</h3>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            As a blockchain developer and host of the <b>Bitcoinomics21</b> podcast, I architect decentralized infrastructure. My work ranges from developing P2P lending platforms at the <b>MIT Blockchain Hackathon</b> to engineering <b>Digi</b>—a Bitcoin Lightning payment app—and proposing a <b>Bitcoin Strategic Reserve</b> to a government council.
+          </p>
+
+          <h3 className="text-xl md:text-2xl font-bold mb-4 font-sans">The Mission</h3>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            I architect the infrastructure for sustainable growth. From strategic roadmaps to production-grade deployment, I help organizations <b>scale their technical advantage</b> and thrive in a digital landscape.
           </p>
         </motion.div>
 
