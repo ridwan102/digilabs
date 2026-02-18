@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import selfImage from "@/assets/self.png";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -21,13 +22,25 @@ const AboutSection = () => {
             {" "} Enterprise AI & Blockchain Infrastructure
           </h2>
 
-          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex-shrink-0">
+              <img
+                src={selfImage}
+                alt="Ridwan"
+                className="w-48 md:w-60 border-1 border-primary/30 shadow-lg rounded-b-2xl"
+              />
+            </div>
 
-          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            I architect the infrastructure for sustainable growth. From strategic roadmaps to production-grade deployment, I help organizations <b>scale their technical advantage</b> and thrive in a digital landscape.
-          </p>
+            <div className="text-center md:text-left">
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
+              </p>
+
+              <p className="text-muted-foreground text-lg leading-relaxed mb-0">
+                I architect the infrastructure for sustainable growth. From strategic roadmaps to production-grade deployment, I help organizations <b>scale their technical advantage</b> and thrive in a digital landscape.
+              </p>
+            </div>
+          </div>
         </motion.div>
 
         {/* Stats */}
