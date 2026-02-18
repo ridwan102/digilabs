@@ -9,7 +9,7 @@ const AboutSection = () => {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-24 md:py-32" ref={ref}>
+    <section id="founder" className="py-24 md:py-32" ref={ref}>
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -41,6 +41,10 @@ const AboutSection = () => {
                 I architect the infrastructure for sustainable growth. From strategic roadmaps to production-grade deployment, I help organizations <b>scale their technical advantage</b> and thrive in a digital landscape.
               </p>
 
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                As the creator and host of the Bitcoinomics21 podcast, I translate complex technical mechanics into strategic insights for a global audience. This deep engagement with the digital asset space informs my work—bridging the gap between emerging technology and institutional strategy.
+              </p>
+
               <div className="flex flex-wrap gap-4">
                 <a
                   href="https://linkedin.com/in/ridwanalam"
@@ -58,7 +62,7 @@ const AboutSection = () => {
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
                 >
                   <Podcast className="w-5 h-5" />
-                  Bitcoinomics Podcast
+                  Bitcoinomics21 Podcast
                 </a>
               </div>
             </div>

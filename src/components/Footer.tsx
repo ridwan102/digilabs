@@ -5,7 +5,7 @@ const Footer = () => (
         © {new Date().getFullYear()} DigiLabs. All rights reserved.
       </p>
       <div className="flex gap-4">
-        {[, "Services", "About", "Case Studies"].map((l) => (
+        {[, "Services", "Founder", "Case Studies"].map((l) => (
           <a
             key={l}
             href={`#${l.toLowerCase().replace(" ", "")}`}
