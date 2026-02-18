@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { LinkedinIcon, Podcast } from "lucide-react";
 import selfImage from "@/assets/self.png";
 
 const AboutSection = () => {
@@ -36,9 +37,30 @@ const AboutSection = () => {
                 I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
               </p>
 
-              <p className="text-muted-foreground text-lg leading-relaxed mb-0">
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 I architect the infrastructure for sustainable growth. From strategic roadmaps to production-grade deployment, I help organizations <b>scale their technical advantage</b> and thrive in a digital landscape.
               </p>
+
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://linkedin.com/in/ridwanalam"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
+                >
+                  <LinkedinIcon className="w-5 h-5" />
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.bitcoinomics21.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
+                >
+                  <Podcast className="w-5 h-5" />
+                  Bitcoinomics Podcast
+                </a>
+              </div>
             </div>
           </div>
         </motion.div>
