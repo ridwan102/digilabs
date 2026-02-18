@@ -42,7 +42,8 @@ const AboutSection = () => {
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                As the creator and host of the Bitcoinomics21 podcast, I translate complex technical mechanics into strategic insights for a global audience. This deep engagement with the digital asset space informs my work—bridging the gap between emerging technology and institutional strategy.
+                As the creator and host of the Bitcoinomics21 podcast, I translate complex technical mechanics into strategic insights for a global audience. 
+                {/* This deep engagement with the digital asset space informs my work—bridging the gap between emerging technology and institutional strategy. */}
               </p>
 
               <div className="flex flex-wrap gap-4">
