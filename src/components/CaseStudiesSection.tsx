@@ -87,7 +87,7 @@ const blockchainCases = [
   github: "https://github.com/cashucloak/cashu_cloak",
   demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
   image: cashucloakpic,
-  imageClass: "max-w-full max-h-full object-contain",
+  imageClass: "w-[150%] h-[150%] object-contain",
   bgClass: "bg-black"
 },
 {
