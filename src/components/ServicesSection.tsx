@@ -6,19 +6,19 @@ const services = [
 {
   icon: Brain,
   title: "Enterprise AI & Data Science",
-  desc: "We architect custom AI solutions tailored to your business needs. We build production-ready models that turn your proprietary data into a strategic asset.",
+  desc: "I architect custom AI solutions tailored to your business needs. I build production-ready models that turn your proprietary data into a strategic asset.",
   items: ["Private LLM Agents & Semantic Search", "Predictive Modeling & Risk Analytics", "Automated Document Intelligence"]
 },
 {
   icon: Link2,
   title: "Blockchain Infrastructure",
-  desc: "End-to-end solutions from architecture design to deployment. We specialize in building secure payment rails and apps on the Bitcoin and Lightning networks.",
+  desc: "End-to-end solutions from architecture design to deployment. I specialize in building secure payment rails and apps on the Bitcoin and Lightning networks.",
   items: ["Lightning Network Payment Rails", "Secure Smart Contract Architecture", "Decentralized applications (dApp)"]
 },
 {
   icon: Landmark,
   title: "Municipal & Policy Strategy",
-  desc: "We architect the technical and legislative frameworks required to integrate decentralized technology into public and private institutions.",
+  desc: "I architect the technical and legislative frameworks required to integrate decentralized technology into public and private institutions.",
   items: ["Digital Asset Governance", "Political Technical Strategy", "Treasury Strategy"]
 },
 
@@ -56,7 +56,7 @@ const ServicesSection = () => {
             <span className="text-gradient">Intelligent Systems</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            We architect the technical foundation to bridge the gap between corporate data science and decentralized finance.
+            I architect the technical foundation to bridge the gap between corporate data science and decentralized finance.
           </p>
         </motion.div>
 
