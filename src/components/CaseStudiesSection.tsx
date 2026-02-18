@@ -3,11 +3,11 @@ import { useRef } from "react";
 import { ExternalLink, Play } from "lucide-react";
 import objectdetectionpic from "@/assets/objectdetection.png";
 import bitloanpic from "@/assets/bitloan.png";
-import solespic from "@/assets/soles.png";
-import cashucloakpic from "@/assets/cashucloak.png";
+import solespic from "@/assets/soles2.jpg";
+import cashucloakpic from "@/assets/cashucloak2.png";
 import govtpic from "@/assets/govt.png";
 import lawtechpic from "@/assets/lawtech1.png";
-import nn from "@/assets/nn1.jpg";
+import nn from "@/assets/nn4.jpg";
 import zohran from "@/assets/zohran.png";
 import general from "@/assets/general3.png";
 
@@ -18,7 +18,10 @@ const aiCases = [
   objective: "Streamline high-volume contractual review and similarity detection.",
   architecture: "Engineered a semantic similarity engine using NLP to automate document clustering and quantifiable discrepancy analysis.",
   impact: "Significantly expanded document processing capacity while reducing manual review cycles through automated black-lining and scoring.",
-  image: lawtechpic
+  image: lawtechpic,
+  imageClass: "max-w-full max-h-full object-contain",
+  bgClass: "bg-black"
+  
 },
 {
   tag: "Government Technology Sector",
@@ -26,7 +29,9 @@ const aiCases = [
   objective: "Provide real-time, data-driven insights into legislative discourse to inform strategic decision-making.",
   architecture: "Engineered a multi-source ingestion engine for X and BlueSky, utilizing advanced NLP for sentiment analysis and latent Dirichlet allocation (LDA) topic modeling.",
   impact: "Delivered a comprehensive legislative sentiment tracker, allowing for the early identification of emerging policy trends and shifting political narratives.",
-  image: govtpic
+  image: govtpic,
+  imageClass: "max-w-full max-h-full object-contain",
+  bgClass: "bg-[#115895]"
 },
 {
   tag: "Enterprise Data Science & Predictive Analytics",
@@ -56,7 +61,9 @@ const municipalCases = [
   architecture: "Developed a legislative roadmap for a Municipal Bitcoin Strategic Reserve, supplemented by a secondary framework for Bitcoin-integrated utility payment systems.",
   impact: "Presented a blueprint to the Mayor and City Council, establishing a model for municipal digital asset treasury and public payment rails.",
   presentation: "https://www.youtube.com/watch?v=4IoVJgnI81s&t=2s",
-  image: nn
+  image: nn,
+  imageClass: "max-w-full max-h-full object-contain",
+  bgClass: "bg-white"
 },
 {
   tag: "Civic Technology & Public Advocacy",
@@ -79,7 +86,9 @@ const blockchainCases = [
   impact: "Awarded Honorable Mention at the Las Vegas Bitcoin Hackathon for pioneering privacy-enhanced Bitcoin scaling solutions.",
   github: "https://github.com/cashucloak/cashu_cloak",
   demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
-  image: cashucloakpic
+  image: cashucloakpic,
+  imageClass: "max-w-full max-h-full object-contain",
+  bgClass: "bg-black"
 },
 {
   tag: "Supply Chain & Digital Provenance - Winner",
@@ -89,7 +98,9 @@ const blockchainCases = [
   impact: "Awarded First Place at the MIT Blockchain Hackathon for developing a scalable solution to eliminate counterfeit friction and streamline peer-to-peer commerce.",
   github: "https://github.com/YongERong/soles",
   demo: "https://www.youtube.com/watch?v=b6b3Zs_Ski0",
-  image: solespic
+  image: solespic,
+  imageClass: "max-w-full max-h-full object-contain",
+  bgClass: "bg-white"
 },
 // {
 //   tag: "FinTech Innovation",
@@ -111,6 +122,8 @@ interface CaseStudy {
   architecture: string;
   impact: string;
   image: string;
+  imageClass?: string;
+  bgClass?: string;
   github?: string;
   demo?: string;
   presentation?: string;
@@ -131,19 +144,19 @@ const CaseCard = ({ c, i, inView }: CaseCardProps) =>
   className="bg-card border border-border rounded-xl overflow-hidden group hover:border-primary/30 transition-colors">
 
     {(c.presentation || c.demo || c.website) ? (
-      <a href={c.presentation || c.demo || c.website} target="_blank" rel="noopener noreferrer" className="aspect-video overflow-hidden bg-secondary block cursor-pointer">
+      <a href={c.presentation || c.demo || c.website} target="_blank" rel="noopener noreferrer" className={`aspect-video overflow-hidden block cursor-pointer flex items-center justify-center ${c.bgClass || 'bg-secondary'}`}>
         <img
           src={c.image}
           alt={c.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          className={`group-hover:scale-105 transition-transform duration-500 ${c.imageClass || 'w-full h-full object-cover'}`}
           loading="lazy" />
       </a>
     ) : (
-      <div className="aspect-video overflow-hidden bg-secondary">
+      <div className={`aspect-video overflow-hidden flex items-center justify-center ${c.bgClass || 'bg-secondary'}`}>
         <img
           src={c.image}
           alt={c.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          className={`group-hover:scale-105 transition-transform duration-500 ${c.imageClass || 'w-full h-full object-cover'}`}
           loading="lazy" />
       </div>
     )}
