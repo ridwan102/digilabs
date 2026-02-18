@@ -8,7 +8,7 @@ const Footer = () => (
         {[
           { label: "Capabilities", href: "#services" },
           { label: "Case Studies", href: "#cases" },
-          { label: "The Founder", href: "#founder" },
+          { label: "About the Founder", href: "#founder" },
         ].map((l) => (
           <a
             key={l.label}

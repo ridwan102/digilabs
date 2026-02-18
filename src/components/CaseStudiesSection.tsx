@@ -209,7 +209,7 @@ const CaseStudiesSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16">
 
-          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Impact & Execution</p>
+          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Case Studies</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 font-sans">
             Real-World <span className="text-gradient">Results</span>
           </h2>

@@ -50,7 +50,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16">
 
-          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Core Capabilities</p>
+          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">Capabilities</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 font-sans">
             Secure Infrastructure & {" "}
             <span className="text-gradient">Intelligent Systems</span>

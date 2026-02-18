@@ -6,7 +6,7 @@ const navLinks = [
 // { label: "Home", href: "#home" },
 { label: "Capabilities", href: "#services" },
 { label: "Case Studies", href: "#cases" },
-{ label: "The Founder", href: "#founder" },
+{ label: "About the Founder", href: "#founder" },
 // { label: "Contact", href: "#contact" }
 ];
 

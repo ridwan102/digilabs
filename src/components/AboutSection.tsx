@@ -17,7 +17,7 @@ const AboutSection = () => {
           transition={{ duration: 0.7 }}
           className="max-w-3xl mx-auto text-center">
 
-          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">The Mission</p>
+          <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">About the Founder</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-sans">
             <span className="text-gradient">The Strategic Edge: </span>
             {" "} Enterprise AI & Blockchain Infrastructure
