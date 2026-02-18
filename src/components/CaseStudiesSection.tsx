@@ -9,6 +9,7 @@ import govtpic from "@/assets/govt.png";
 import lawtechpic from "@/assets/lawtech1.png";
 import nn from "@/assets/nn1.jpg";
 import zohran from "@/assets/zohran.png";
+import general from "@/assets/general3.png";
 
 const aiCases = [
 {
@@ -26,6 +27,14 @@ const aiCases = [
   architecture: "Engineered a multi-source ingestion engine for X and BlueSky, utilizing advanced NLP for sentiment analysis and latent Dirichlet allocation (LDA) topic modeling.",
   impact: "Delivered a comprehensive legislative sentiment tracker, allowing for the early identification of emerging policy trends and shifting political narratives.",
   image: govtpic
+},
+{
+  tag: "Enterprise Data Science & Predictive Analytics",
+  title: "Scalable Risk & Retention Modeling",
+  objective: "Architect high-impact predictive models to optimize marketing efficiency and lead conversion for a national insurance carrier.",
+  architecture: "Engineered advanced models including a Real-Time Bidding GLM, a Logistic Regression model for lead transfers, and a Random Forest Classifier integrated with NLP techniques.",
+  impact: "Generated $23 million in profit, achieved an 80% increase in CTR with a 47% reduction in CAC, and reached 98% accuracy in claims liability identification through rigorous A/B testing and cross-functional leadership.",
+  image: general
 },
 // {
 //   tag: "Transportation Technology",

@@ -6,7 +6,7 @@ const services = [
 {
   icon: Brain,
   title: "Enterprise AI & Data Science",
-  desc: "We architect custom AI solutions—including NLP, LLM integration, and neural networks—tailored to your business needs. We build production-ready, private models that turn your proprietary data into a strategic asset.",
+  desc: "We architect custom AI solutions—including NLP and LLM integration—tailored to your business needs. We build production-ready, private models that turn your proprietary data into a strategic asset.",
   items: ["Private LLM Agents & Semantic Search", "Predictive Modeling & Risk Analytics", "Automated Document Intelligence", "Computer Vision for Operations"]
 },
 {

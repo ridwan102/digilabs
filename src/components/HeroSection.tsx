@@ -40,7 +40,7 @@ const HeroSection = () => {
               href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-base">
 
-              Schedule a Free Discovery Call
+              Schedule a Discovery Call
               <ArrowRight size={18} />
             </a>
             <a
