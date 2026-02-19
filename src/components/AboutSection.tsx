@@ -34,7 +34,7 @@ const AboutSection = () => {
 
             <div className="text-center md:text-left">
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
+                I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs21</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">

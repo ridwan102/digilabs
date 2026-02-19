@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
         <a href="#home" className="text-xl font-bold text-gradient font-sans">
-          DigiLabs
+          <img src="/src/assets/logos/logo1.png" alt="DigiLabs" className="h-8" />
         </a>
 
         {/* Desktop */}
@@ -59,6 +59,9 @@ const Navbar = () => {
           className="md:hidden bg-card border-b border-border overflow-hidden">
 
             <div className="px-6 py-4 flex flex-col gap-4">
+              <a href="#home" onClick={() => setOpen(false)} className="mb-2">
+                <img src="/src/assets/logos/logo4.png" alt="DigiLabs" className="h-8" />
+              </a>
               {navLinks.map((link) =>
             <a
               key={link.href}

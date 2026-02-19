@@ -58,7 +58,7 @@ const HeroSection = () => {
             className="flex flex-wrap gap-8">
 
             {[
-            { icon: Building2, label: "Enterprise & Gov Experience" },
+            { icon: Building2, label: "Enterprise & Gov Strategy" },
             { icon: Award, label: "Awarded for Technical Innovation" },
             { icon: Bitcoin, label: "Host of Bitcoinomics21 Podcast" },
             ].
