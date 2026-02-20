@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo1 from "../assets/logos/logo1.png";
+import logo4 from "../assets/logos/21.png";
 
 const navLinks = [
 // { label: "Home", href: "#home" },
@@ -18,7 +20,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
         <a href="#home" className="text-xl font-bold text-gradient font-sans">
-          <img src="/src/assets/logos/logo1.png" alt="DigiLabs" className="h-8" />
+          <img src={logo1} alt="DigiLabs" className="h-8" />
         </a>
 
         {/* Desktop */}
@@ -60,7 +62,7 @@ const Navbar = () => {
 
             <div className="px-6 py-4 flex flex-col gap-4">
               <a href="#home" onClick={() => setOpen(false)} className="mb-2">
-                <img src="/src/assets/logos/logo4.png" alt="DigiLabs" className="h-8" />
+                <img src={logo4} alt="DigiLabs" className="h-8" />
               </a>
               {navLinks.map((link) =>
             <a
