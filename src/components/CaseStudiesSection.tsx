@@ -5,33 +5,44 @@ import objectdetectionpic from "@/assets/objectdetection.png";
 import bitloanpic from "@/assets/bitloan.png";
 import solespic from "@/assets/soles2.jpg";
 import cashucloakpic from "@/assets/cashucloak2.png";
-import govtpic from "@/assets/govt.png";
-import lawtechpic from "@/assets/lawtech1.png";
+import wippai from "@/assets/wippai.jpg";
+import lawbeta from "@/assets/lawbeta.jpg";
 import nn from "@/assets/nn4.jpg";
 import zohran from "@/assets/zohran.png";
 import general from "@/assets/general3.png";
+import positivepromotions from "@/assets/positivepromotions.jpg";
 
 const aiCases = [
 {
-  tag: "Legal Technology Sector",
-  title: "Legal Tech Document Intelligence",
+  tag: "Promotional Products",
+  title: "Positive Promotions: Holiday Buyer Analytics Solution",
+  objective: "Evaluate campaign effectiveness and historical sales performance to guide strategic decision-making for a promotional products company.",
+  architecture: "Engineered Holiday Buyer Analytics solution analyzing datasets to extract business metrics, including cost structures, product viability, orders per customer, and in-house versus dropship efficiency.",
+  impact: "Delivered business intelligence to optimize promotional operations by collaborating directly with the Chief Revenue Officer to define the project's strategic scope and align on deliverables, ensuring the analytics solution met high-level business objectives.",
+  image: positivepromotions,
+  imageClass: "max-w-[80%] max-h-[80%] object-contain",
+  bgClass: "bg-black"
+},
+{
+  tag: "Legal Technology",
+  title: "LawBeta: Legal Tech Document Intelligence",
   objective: "Streamline high-volume contractual review and similarity detection.",
   architecture: "Engineered a semantic similarity engine using NLP to automate document clustering and quantifiable discrepancy analysis.",
   impact: "Significantly expanded document processing capacity while reducing manual review cycles through automated black-lining and scoring.",
-  image: lawtechpic,
-  imageClass: "max-w-full max-h-full object-contain",
+  image: lawbeta,
+  imageClass: "max-w-[80%] max-h-[80%] object-contain",
   bgClass: "bg-black"
   
 },
 {
-  tag: "Government Technology Sector",
-  title: "Social Intelligence & Legislative Analytics",
+  tag: "Government Technology",
+  title: "Wipp.AI: Social Intelligence & Legislative Analytics",
   objective: "Provide real-time, data-driven insights into legislative discourse to inform strategic decision-making.",
   architecture: "Engineered a multi-source ingestion engine for X and BlueSky, utilizing advanced NLP for sentiment analysis and latent Dirichlet allocation (LDA) topic modeling.",
   impact: "Delivered a comprehensive legislative sentiment tracker, allowing for the early identification of emerging policy trends and shifting political narratives.",
-  image: govtpic,
+  image: wippai,
   imageClass: "max-w-full max-h-full object-contain",
-  bgClass: "bg-[#115895]"
+  bgClass: "bg-white"
 },
 {
   tag: "Enterprise Data Science & Predictive Analytics",
@@ -214,7 +225,7 @@ const CaseStudiesSection = () => {
             Real-World <span className="text-gradient">Results</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            From municipal Bitcoin strategy to enterprise-scale AI, we deliver technical solutions for complex institutional challenges.
+            I deliver enterprise-scale AI technical solutions for complex institutional challenges.
           </p>
         </motion.div>
 
