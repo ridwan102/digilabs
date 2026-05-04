@@ -77,31 +77,31 @@ const municipalCases = [
 }
 ];
 
-const blockchainCases = [
-{
-  tag: "FinTech & Privacy Engineering - Honorable Mention",
-  title: "Secure Bitcoin Infrastructure",
-  objective: "Architect a high-privacy Bitcoin transfer system using advanced cryptographic and steganographic protocols.",
-  architecture: "Engineered a mobile application integrating the Lightning Network with steganography to enable concealed Bitcoin token transfers within digital image assets.",
-  impact: "Awarded Honorable Mention at the Las Vegas Bitcoin Hackathon for pioneering privacy-enhanced Bitcoin scaling solutions.",
-  github: "https://github.com/cashucloak/cashu_cloak",
-  demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
-  image: cashucloakpic,
-  imageClass: "w-[150%] h-[150%] object-contain",
-  bgClass: "bg-black"
-},
-{
-  tag: "Supply Chain & Digital Provenance - Winner",
-  title: "Blockchain Authentication Infrastructure",
-  objective: "Architect a tamper-proof verification system to ensure product authenticity and secure asset transfer.",
-  architecture: "Engineered a blockchain-integrated mobile platform utilizing the Lightning Network to create immutable provenance records and facilitate instant payments.",
-  impact: "Awarded First Place at the MIT Blockchain Hackathon for developing a scalable solution to eliminate counterfeit friction and streamline peer-to-peer commerce.",
-  github: "https://github.com/YongERong/soles",
-  demo: "https://www.youtube.com/watch?v=b6b3Zs_Ski0",
-  image: solespic,
-  imageClass: "max-w-full max-h-full object-contain",
-  bgClass: "bg-white"
-},
+// const blockchainCases = [
+// {
+//   tag: "FinTech & Privacy Engineering - Honorable Mention",
+//   title: "Secure Bitcoin Infrastructure",
+//   objective: "Architect a high-privacy Bitcoin transfer system using advanced cryptographic and steganographic protocols.",
+//   architecture: "Engineered a mobile application integrating the Lightning Network with steganography to enable concealed Bitcoin token transfers within digital image assets.",
+//   impact: "Awarded Honorable Mention at the Las Vegas Bitcoin Hackathon for pioneering privacy-enhanced Bitcoin scaling solutions.",
+//   github: "https://github.com/cashucloak/cashu_cloak",
+//   demo: "https://www.youtube.com/watch?v=341GjWFwyPg&t=5s",
+//   image: cashucloakpic,
+//   imageClass: "w-[150%] h-[150%] object-contain",
+//   bgClass: "bg-black"
+// },
+// {
+//   tag: "Supply Chain & Digital Provenance - Winner",
+//   title: "Blockchain Authentication Infrastructure",
+//   objective: "Architect a tamper-proof verification system to ensure product authenticity and secure asset transfer.",
+//   architecture: "Engineered a blockchain-integrated mobile platform utilizing the Lightning Network to create immutable provenance records and facilitate instant payments.",
+//   impact: "Awarded First Place at the MIT Blockchain Hackathon for developing a scalable solution to eliminate counterfeit friction and streamline peer-to-peer commerce.",
+//   github: "https://github.com/YongERong/soles",
+//   demo: "https://www.youtube.com/watch?v=b6b3Zs_Ski0",
+//   image: solespic,
+//   imageClass: "max-w-full max-h-full object-contain",
+//   bgClass: "bg-white"
+// },
 // {
 //   tag: "FinTech Innovation",
 //   title: "Decentralized Lending Platform",
@@ -112,7 +112,7 @@ const blockchainCases = [
 //   demo: "https://www.youtube.com/watch?v=qzWmGha4p5U&t=3s",
 //   image: bitloanpic
 // }
-];
+// ];
 
 
 interface CaseStudy {
@@ -235,12 +235,12 @@ const CaseStudiesSection = () => {
         </div>
 
         {/* Blockchain Solutions */}
-        <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Blockchain Infrastructure</h3>
+        {/* <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Blockchain Infrastructure</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {blockchainCases.map((c, i) =>
           <CaseCard key={c.title} c={c} i={i} inView={inView} />
           )}
-        </div>
+        </div> */}
       </div>
     </section>);
 
