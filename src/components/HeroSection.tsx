@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Award, Bitcoin, Building2, Rocket } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -19,14 +19,14 @@ const HeroSection = () => {
             transition={{ duration: 0.7 }}>
 
             <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">
-              Strategic Technology Consulting
+              AI, Data Science & Analytics Consulting
             </p>
             <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-sans">
-              Data-Driven AI & Blockchain {" "}
-              <span className="text-gradient">Strategy</span>
+              Data-Driven AI{" "}
+              <span className="text-gradient">Business Strategy</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-              Architecting secure infrastructure for municipalities and forward-thinking enterprises.
+              Helping companies unlock actionable insights through AI, Data Science, and Analytics to drive business decisions.
             </p>
           </motion.div>
 
@@ -50,7 +50,7 @@ const HeroSection = () => {
               View Case Studies
             </a>
           </motion.div>
-
+{/* 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -68,7 +68,7 @@ const HeroSection = () => {
                 <span className="text-sm">{item.label}</span>
               </div>
             )}
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>);
