@@ -20,7 +20,7 @@ const AboutSection = () => {
           <p className="text-primary font-medium text-sm tracking-widest uppercase mb-4">About the Founder</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-sans">
             <span className="text-gradient">The Strategic Edge: </span>
-            {" "} Enterprise AI & Blockchain Infrastructure
+            {" "} Enterprise AI Infrastructure
           </h2>
 
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
@@ -34,7 +34,7 @@ const AboutSection = () => {
 
             <div className="text-center md:text-left">
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs21</b>, I combine industry insight with data science and award-winning blockchain expertise to solve infrastructure challenges.
+                I partner with municipalities and enterprises to capture the full value of the digital economy. At <b>DigiLabs21</b>, I combine industry insight with data science expertise to solve infrastructure challenges.
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
@@ -42,7 +42,7 @@ const AboutSection = () => {
               </p>
 
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                As the creator and host of the Bitcoinomics21 podcast, I translate complex technical mechanics into strategic insights for a global audience. 
+                {/* As the creator and host of the Bitcoinomics21 podcast, I translate complex technical mechanics into strategic insights for a global audience.  */}
                 {/* This deep engagement with the digital asset space informs my work—bridging the gap between emerging technology and institutional strategy. */}
               </p>
 
@@ -56,7 +56,7 @@ const AboutSection = () => {
                   <LinkedinIcon className="w-5 h-5" />
                   LinkedIn
                 </a>
-                <a
+                {/* <a
                   href="https://www.bitcoinomics21.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const AboutSection = () => {
                 >
                   <Podcast className="w-5 h-5" />
                   Bitcoinomics21 Podcast
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
