@@ -20,7 +20,7 @@ const CTASection = () => {
             Scale your <span className="text-gradient">Technical</span> Advantage
           </h2>
           <p className="text-muted-foreground text-lg mb-4 leading-relaxed">
-            Schedule a briefing to align your strategic objectives with production-ready AI and decentralized financial infrastructure.
+            Schedule a briefing to align your strategic objectives with production-ready AI infrastructure.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

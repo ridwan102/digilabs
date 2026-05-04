@@ -225,7 +225,7 @@ const CaseStudiesSection = () => {
             Real-World <span className="text-gradient">Results</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            I deliver enterprise-scale AI technical solutions for complex institutional challenges.
+            I deliver enterprise-scale AI solutions for complex institutional challenges.
           </p>
         </motion.div>
 

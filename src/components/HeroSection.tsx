@@ -26,7 +26,7 @@ const HeroSection = () => {
               <span className="text-gradient">Business Strategy</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-              Helping companies unlock actionable insights through AI, Data Science, and Analytics to drive business decisions.
+              Helping companies unlock actionable insights through AI, Data Science and Analytics to drive business decisions.
             </p>
           </motion.div>
 

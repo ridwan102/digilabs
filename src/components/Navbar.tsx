@@ -38,7 +38,7 @@ const Navbar = () => {
             href="#contact"
             className="text-sm font-medium bg-primary text-primary-foreground px-5 py-2 rounded-lg hover:opacity-90 transition-opacity">
 
-            Schedule a Call
+            Schedule a Discovery Call
           </a>
         </div>
 
@@ -79,7 +79,7 @@ const Navbar = () => {
               onClick={() => setOpen(false)}
               className="text-sm font-medium bg-primary text-primary-foreground px-5 py-2 rounded-lg text-center hover:opacity-90 transition-opacity">
 
-                Schedule Consultation
+                Schedule a Discovery Call
               </a>
             </div>
           </motion.div>

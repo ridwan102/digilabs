@@ -15,13 +15,12 @@ const services = [
 //   desc: "End-to-end solutions from architecture design to deployment. I specialize in building secure payment rails and apps on the Bitcoin and Lightning networks.",
 //   items: ["Lightning Network Payment Rails", "Secure Smart Contract Architecture", "Decentralized applications (dApp)"]
 // },
-{
-  icon: Landmark,
-  title: "Municipal & Policy Strategy",
-  desc: "I architect the technical and legislative frameworks required to integrate decentralized technology into public and private institutions.",
-  items: ["Digital Asset Governance", "Political Technical Strategy", "Treasury Strategy"]
-},
-
+// {
+//   icon: Landmark,
+//   title: "Municipal & Policy Strategy",
+//   desc: "I architect the technical and legislative frameworks required to integrate decentralized technology into public and private institutions.",
+//   items: ["Digital Asset Governance", "Political Technical Strategy", "Treasury Strategy"]
+// },
 // {
 //   icon: Search,
 //   title: "Technical Due Diligence",
@@ -60,14 +59,14 @@ const ServicesSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <div className="flex justify-center mt-16">
           {services.map((service, i) =>
           <motion.div
             key={service.title}
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.15 * i }}
-            className="bg-background border border-border rounded-xl p-8 hover:border-primary/30 transition-colors group">
+            className="bg-background border border-border rounded-xl p-8 hover:border-primary/30 transition-colors group max-w-xl w-full">
 
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                 <service.icon className="text-primary" size={24} />
