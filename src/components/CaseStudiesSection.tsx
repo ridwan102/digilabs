@@ -64,29 +64,29 @@ const aiCases = [
 // }
 ];
 
-const municipalCases = [
-{
-  tag: "Public Sector & Financial Infrastructure",
-  title: "Municipal Bitcoin Strategy & Utility Integration",
-  objective: "Advise municipal leadership on Bitcoin integration, bridging the gap between strategic reserve policy and practical utility applications.",
-  architecture: "Developed a legislative roadmap for a Municipal Bitcoin Strategic Reserve, supplemented by a secondary framework for Bitcoin-integrated utility payment systems.",
-  impact: "Presented a blueprint to the Mayor and City Council, establishing a model for municipal digital asset treasury and public payment rails.",
-  presentation: "https://www.youtube.com/watch?v=4IoVJgnI81s&t=2s",
-  image: nn,
-  imageClass: "max-w-full max-h-full object-contain",
-  bgClass: "bg-white"
-},
-{
-  tag: "Civic Technology & Public Advocacy",
-  title: "Strategic Recruitment & Endorsement Platform",
-  objective: "Architect a custom digital platform to demonstrate technical capability and secure institutional support for a high-profile New York City legislative transition.",
-  architecture: "Engineered a secure web infrastructure to manage recruitment workflows and public endorsements as a proof of concept for civic technology.",
-  impact: "Mobilized 60 individual and organizational endorsements, demonstrating the strategic intersection of technical engineering and public advocacy.",
-  website: "https://www.zohranhireridwan.com/",
-  github: "https://github.com/ridwan102/zohran-mamdani-application",
-  image: zohran
-}
-];
+// const municipalCases = [
+// {
+//   tag: "Public Sector & Financial Infrastructure",
+//   title: "Municipal Bitcoin Strategy & Utility Integration",
+//   objective: "Advise municipal leadership on Bitcoin integration, bridging the gap between strategic reserve policy and practical utility applications.",
+//   architecture: "Developed a legislative roadmap for a Municipal Bitcoin Strategic Reserve, supplemented by a secondary framework for Bitcoin-integrated utility payment systems.",
+//   impact: "Presented a blueprint to the Mayor and City Council, establishing a model for municipal digital asset treasury and public payment rails.",
+//   presentation: "https://www.youtube.com/watch?v=4IoVJgnI81s&t=2s",
+//   image: nn,
+//   imageClass: "max-w-full max-h-full object-contain",
+//   bgClass: "bg-white"
+// },
+// {
+//   tag: "Civic Technology & Public Advocacy",
+//   title: "Strategic Recruitment & Endorsement Platform",
+//   objective: "Architect a custom digital platform to demonstrate technical capability and secure institutional support for a high-profile New York City legislative transition.",
+//   architecture: "Engineered a secure web infrastructure to manage recruitment workflows and public endorsements as a proof of concept for civic technology.",
+//   impact: "Mobilized 60 individual and organizational endorsements, demonstrating the strategic intersection of technical engineering and public advocacy.",
+//   website: "https://www.zohranhireridwan.com/",
+//   github: "https://github.com/ridwan102/zohran-mamdani-application",
+//   image: zohran
+// }
+// ];
 
 // const blockchainCases = [
 // {
@@ -231,19 +231,19 @@ const CaseStudiesSection = () => {
 
         {/* AI Solutions */}
         <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Enterprise AI & Data Science</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {aiCases.map((c, i) =>
           <CaseCard key={c.title} c={c} i={i} inView={inView} />
           )}
         </div>
 
         {/* Municipal Solutions */}
-        <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Municipal & Policy Strategy</h3>
+        {/* <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Municipal & Policy Strategy</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
           {municipalCases.map((c, i) =>
           <CaseCard key={c.title} c={c} i={i} inView={inView} />
           )}
-        </div>
+        </div> */}
 
         {/* Blockchain Solutions */}
         {/* <h3 className="text-2xl font-semibold mb-8 text-center font-sans">Blockchain Infrastructure</h3>
